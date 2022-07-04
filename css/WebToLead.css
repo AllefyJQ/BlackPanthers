@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 0px auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 19px 71px -10px rgb(0 0 0 / 20%);
+
+}
+
+.container > div{
+    margin: 10px;
+}
+
+.Column1{
+    width: 436px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.titulo{
+    margin-bottom: 3rem;
+}
+
+.Cam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.Campos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.Campos input, select{
+
+    margin: 0.1rem 0;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, .212);
+}
+
+
+.Campos label{
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.Campos select{
+    text-align: center;
+}
+
+.botoes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.botoes input{
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, .212);
+    cursor: pointer;
+}
+
+.Column2 img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, .212);
+
+}
+
+#voltar1:hover{
+    background-color: #AD2B2B;
+    color: white;
+}
+
+#enviar:hover{
+    background-color: #04AA6D;
+    color: white;
+}
